@@ -3,11 +3,27 @@
 import { motion } from "framer-motion";
 import Script from "next/script";
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Feng Shui Nederland",
+  url: "https://fengshuinederland.nl",
+  areaServed: "NL",
+  serviceType: ["Feng Shui advies", "Nine Star Ki consult"],
+  sameAs: ["https://www.instagram.com/fengshui_nederland/"],
+};
+
 export default function Home() {
   return (
     <>
+      <Script
+        id="feng-shui-nederland-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
+      />
       <main className="bg-[#f8f6f1] text-gray-800">
-        {/* HERO */}
         <section className="relative overflow-hidden">
           <img
             src="/hero.jpg"
@@ -36,9 +52,12 @@ export default function Home() {
                 Praktisch Feng Shui advies voor ondernemers en bedrijven die hun
                 werkplek rustiger, helderder en prettiger willen maken.
               </p>
-<p className="mt-6 text-white/90 max-w-2xl mx-auto">
-  Ik maak Feng Shui begrijpbaar en praktisch — zonder standaardoplossingen, maar afgestemd op jouw ruimte.
-</p>
+
+              <p className="mx-auto mt-6 max-w-2xl text-white/90">
+                Ik maak Feng Shui begrijpbaar en praktisch - zonder
+                standaardoplossingen, maar afgestemd op jouw ruimte.
+              </p>
+
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <a
                   href="/contact"
@@ -58,7 +77,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WAAROM FENG SHUI */}
         <section className="px-6 py-20 md:py-24">
           <motion.div
             className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 md:items-center"
@@ -73,12 +91,13 @@ export default function Home() {
               </p>
 
               <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-4xl">
-                Een ruimte heeft direct invloed op hoe je werkt en hoe je je voelt
+                Een ruimte heeft direct invloed op hoe je werkt en hoe je je
+                voelt
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Wanneer een werkruimte onrustig of onlogisch aanvoelt, merk je dat
-                in je concentratie en energie. Met praktische Feng Shui
+                Wanneer een werkruimte onrustig of onlogisch aanvoelt, merk je
+                dat in je concentratie en energie. Met praktische Feng Shui
                 aanpassingen ontstaat er meer overzicht, rust en flow.
               </p>
 
@@ -114,7 +133,6 @@ export default function Home() {
           </motion.div>
         </section>
 
-        {/* DIENSTEN */}
         <section className="bg-white px-6 py-20 md:py-24">
           <motion.div
             className="mx-auto max-w-6xl"
@@ -160,8 +178,8 @@ export default function Home() {
                   Online sessies
                 </h3>
                 <p className="mt-4 leading-7 text-gray-600">
-                  Persoonlijk advies op afstand, helder uitgelegd en afgestemd op
-                  jouw ruimte en doelen.
+                  Persoonlijk advies op afstand, helder uitgelegd en afgestemd
+                  op jouw ruimte en doelen.
                 </p>
               </motion.div>
 
@@ -173,8 +191,8 @@ export default function Home() {
                   Workshops
                 </h3>
                 <p className="mt-4 leading-7 text-gray-600">
-                  Inspirerende sessies voor teams en ondernemers over rust, focus
-                  en balans in de werkomgeving.
+                  Inspirerende sessies voor teams en ondernemers over rust,
+                  focus en balans in de werkomgeving.
                 </p>
               </motion.div>
             </div>
@@ -190,7 +208,6 @@ export default function Home() {
           </motion.div>
         </section>
 
-        {/* UITLEG + NINE STAR KI */}
         <section className="px-6 py-20 md:py-24">
           <motion.div
             className="mx-auto max-w-4xl text-center"
@@ -204,21 +221,20 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 leading-8 text-gray-600">
-              Feng Shui Nederland helpt ondernemers en professionals om hun ruimte
-              logisch en praktisch in te richten. Geen ingewikkelde regels, maar
-              duidelijke aanpassingen die direct zorgen voor meer rust, focus en
-              overzicht.
+              Feng Shui Nederland helpt ondernemers en professionals om hun
+              ruimte logisch en praktisch in te richten. Geen ingewikkelde
+              regels, maar duidelijke aanpassingen die direct zorgen voor meer
+              rust, focus en overzicht.
               <br />
               <br />
               Naast Feng Shui werk ik ook met Nine Star Ki, een methode die
-              inzicht geeft in persoonlijke energie, gedrag en samenwerking. Dit
-              helpt om ruimtes niet alleen goed in te richten, maar ook beter af
-              te stemmen op de mensen die erin werken.
+              inzicht geeft in persoonlijke energie, gedrag en samenwerking.
+              Dit helpt om ruimtes niet alleen goed in te richten, maar ook
+              beter af te stemmen op de mensen die erin werken.
             </p>
           </motion.div>
         </section>
 
-        {/* WERKWIJZE */}
         <section className="px-6 py-20 md:py-24">
           <motion.div
             className="mx-auto max-w-6xl"
@@ -277,14 +293,14 @@ export default function Home() {
                 </span>
                 <h3 className="mt-3 text-xl font-semibold">Meer balans</h3>
                 <p className="mt-4 leading-7 text-gray-600">
-                  Je ervaart meer rust, helderheid en flow in je dagelijkse werk.
+                  Je ervaart meer rust, helderheid en flow in je dagelijkse
+                  werk.
                 </p>
               </div>
             </div>
           </motion.div>
         </section>
 
-        {/* EXTRA BLOK */}
         <section className="bg-white px-6 py-20 md:py-24">
           <motion.div
             className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center"
@@ -335,7 +351,6 @@ export default function Home() {
           </motion.div>
         </section>
 
-        {/* WEGGEVER / NIEUWSBRIEF */}
         <section className="bg-[#2f312d] px-6 py-20 text-white">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-semibold">
@@ -343,8 +358,8 @@ export default function Home() {
             </h2>
 
             <p className="mt-4 text-white/80">
-              Direct toepasbare tips om meer rust, overzicht en focus te creëren
-              in je werkruimte.
+              Direct toepasbare tips om meer rust, overzicht en focus te
+              creeren in je werkruimte.
             </p>
 
             <div

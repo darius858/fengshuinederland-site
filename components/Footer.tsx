@@ -18,16 +18,18 @@ export default function Footer() {
             Volg Feng Shui Nederland op Instagram
           </a>
         </div>
-<div className="mt-4 flex justify-center gap-4 text-sm text-gray-500">
-  <a href="/privacy" className="hover:text-gray-800 underline">
-    Privacyverklaring
-  </a>
-  <a href="/cookies" className="hover:text-gray-800 underline">
-    Cookieverklaring
-  </a>
-</div>
+
+        <div className="mt-4 flex justify-center gap-4 text-sm text-gray-500">
+          <a href="/privacy" className="underline hover:text-gray-800">
+            Privacyverklaring
+          </a>
+          <a href="/cookies" className="underline hover:text-gray-800">
+            Cookieverklaring
+          </a>
+        </div>
+
         <p className="mt-6 text-xs text-gray-400">
-          © {new Date().getFullYear()} Feng Shui Nederland
+          Copyright {new Date().getFullYear()} Feng Shui Nederland
         </p>
       </div>
     </footer>

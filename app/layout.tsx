@@ -3,47 +3,46 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
+import { defaultOgImage, siteName, siteUrl } from "./seo";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fengshuinederland.nl"),
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "Feng Shui Nederland | Rust, focus en balans",
-    template: "%s | Feng Shui Nederland",
+    default: `${siteName} | Rust, focus en balans`,
+    template: `%s | ${siteName}`,
   },
   description:
     "Praktisch Feng Shui advies en Nine Star Ki inzichten voor meer rust, focus en balans in je werkruimte en dagelijks leven.",
-  keywords: [
-    "Feng Shui Nederland",
-    "Feng Shui advies",
-    "Feng Shui werkruimte",
-    "Feng Shui kantoor",
-    "Nine Star Ki",
-    "Nine Star Ki calculator",
-    "rust focus balans",
-    "werkplek verbeteren",
-  ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
-    title: "Feng Shui Nederland | Rust, focus en balans",
+    title: `${siteName} | Rust, focus en balans`,
     description:
       "Praktisch Feng Shui advies en Nine Star Ki inzichten voor meer rust, focus en balans.",
-    url: "https://fengshuinederland.nl",
-    siteName: "Feng Shui Nederland",
+    url: siteUrl,
+    siteName,
     locale: "nl_NL",
     type: "website",
     images: [
       {
-        url: "/hero.jpg",
+        url: defaultOgImage,
         width: 1200,
         height: 630,
-        alt: "Feng Shui Nederland",
+        alt: siteName,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Feng Shui Nederland",
+    title: siteName,
     description:
       "Meer rust, focus en balans met praktisch Feng Shui advies.",
-    images: ["/hero.jpg"],
+    images: [defaultOgImage],
   },
 };
 
@@ -54,7 +53,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl">
-      <body className="min-h-screen flex flex-col bg-[#f8f6f1] text-gray-800">
+      <body className="flex min-h-screen flex-col bg-[#f8f6f1] text-gray-800">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

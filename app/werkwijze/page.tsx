@@ -1,19 +1,35 @@
+import type { Metadata } from "next";
+
+import { createMetadata } from "../seo";
+
+export const metadata: Metadata = createMetadata({
+  title: "Werkwijze | Feng Shui Nederland",
+  description:
+    "Lees hoe Feng Shui Nederland te werk gaat: van kennismaking en analyse tot concreet advies voor meer rust, overzicht en focus.",
+  path: "/werkwijze",
+  keywords: [
+    "werkwijze Feng Shui",
+    "Feng Shui advies proces",
+    "werkruimte analyse",
+  ],
+});
+
 export default function WerkwijzePage() {
   return (
-    <main className="px-6 py-20 bg-[#f8f6f1] text-gray-800">
+    <main className="bg-[#f8f6f1] px-6 py-20 text-gray-800">
       <div className="mx-auto max-w-4xl">
-        <h1 className="text-3xl font-semibold">
-  Werkwijze
-</h1>
+        <h1 className="text-3xl font-semibold">Werkwijze</h1>
 
-<p className="mt-4 text-lg leading-8 text-gray-600">
-  Praktisch Feng Shui advies voor meer rust, overzicht en focus in je werkruimte.
-</p>
-
-        <p className="mt-4 leading-8 text-gray-600">
-          Mijn aanpak is rustig, praktisch en duidelijk. Je krijgt geen vage theorie, maar concrete inzichten die passen bij jouw ruimte en situatie.
+        <p className="mt-4 text-lg leading-8 text-gray-600">
+          Praktisch Feng Shui advies voor meer rust, overzicht en focus in je
+          werkruimte.
         </p>
 
+        <p className="mt-4 leading-8 text-gray-600">
+          Mijn aanpak is rustig, praktisch en duidelijk. Je krijgt geen vage
+          theorie, maar concrete inzichten die passen bij jouw ruimte en
+          situatie.
+        </p>
 
         <div className="mt-10 space-y-6">
           <div className="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">

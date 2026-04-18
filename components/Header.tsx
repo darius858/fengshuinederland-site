@@ -70,13 +70,12 @@ export default function Header() {
               Feng Shui Nederland
             </span>
             <span className="hidden text-xs tracking-[0.18em] text-[#c57b57] md:block">
-              RUST • FOCUS • BALANS
+              RUST / FOCUS / BALANS
             </span>
           </div>
         </Link>
 
         <div className="flex items-center gap-4 md:gap-8">
-          {/* Desktop navigatie */}
           <nav className="hidden items-center gap-6 text-sm text-gray-700 md:flex">
             {navItems.map((item) => (
               <Link
@@ -89,7 +88,6 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Desktop acties */}
           <div className="hidden items-center gap-3 md:flex">
             <div className="relative" ref={dropdownRef}>
               <button
@@ -109,7 +107,7 @@ export default function Header() {
                     className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
                     onClick={() => setCalculatorOpen(false)}
                   >
-                    📱 Android app downloaden
+                    Android app downloaden
                   </a>
 
                   <a
@@ -119,7 +117,7 @@ export default function Header() {
                     className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
                     onClick={() => setCalculatorOpen(false)}
                   >
-                    🌐 Open webversie
+                    Open webversie
                   </a>
                 </div>
               )}
@@ -133,7 +131,6 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Mobiele knop */}
           <button
             type="button"
             aria-label="Open menu"
@@ -141,13 +138,12 @@ export default function Header() {
             className="flex h-11 w-11 items-center justify-center rounded-full border border-[#e9e2d8] text-gray-800 transition hover:bg-[#f8f6f1] md:hidden"
           >
             <span className="text-xl leading-none">
-              {mobileMenuOpen ? "×" : "☰"}
+              {mobileMenuOpen ? "X" : "="}
             </span>
           </button>
         </div>
       </div>
 
-      {/* Mobiel menu */}
       {mobileMenuOpen && (
         <div
           ref={mobileMenuRef}
@@ -168,9 +164,7 @@ export default function Header() {
             <div className="pt-2">
               <button
                 type="button"
-                onClick={() =>
-                  setMobileCalculatorOpen((prev) => !prev)
-                }
+                onClick={() => setMobileCalculatorOpen((prev) => !prev)}
                 className="w-full rounded-full border border-[#c57b57] px-5 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
               >
                 Ontdek je reeks
@@ -185,7 +179,7 @@ export default function Header() {
                     className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
                     onClick={closeMobileMenu}
                   >
-                    📱 Android app downloaden
+                    Android app downloaden
                   </a>
 
                   <a
@@ -195,7 +189,7 @@ export default function Header() {
                     className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
                     onClick={closeMobileMenu}
                   >
-                    🌐 Open webversie
+                    Open webversie
                   </a>
                 </div>
               )}

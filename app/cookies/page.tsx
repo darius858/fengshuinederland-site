@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+import { createMetadata } from "../seo";
+
+export const metadata: Metadata = createMetadata({
+  title: "Cookieverklaring | Feng Shui Nederland",
+  description:
+    "Lees welke cookies Feng Shui Nederland gebruikt en hoe je cookie-instellingen kunt beheren of uitschakelen.",
+  path: "/cookies",
+});
+
 export default function CookiesPage() {
   return (
     <main className="bg-[#f8f6f1] px-6 py-20 text-gray-800">

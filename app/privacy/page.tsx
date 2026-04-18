@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+import { createMetadata } from "../seo";
+
+export const metadata: Metadata = createMetadata({
+  title: "Privacyverklaring | Feng Shui Nederland",
+  description:
+    "Lees de privacyverklaring van Feng Shui Nederland en bekijk welke persoonsgegevens worden verwerkt en waarom.",
+  path: "/privacy",
+});
+
 export default function PrivacyPage() {
   return (
     <main className="bg-[#f8f6f1] px-6 py-20 text-gray-800">
