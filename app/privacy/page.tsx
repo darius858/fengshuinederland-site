@@ -63,6 +63,10 @@ export default function PrivacyPage() {
             informatie en relevante e-mails te sturen. Je kunt je op ieder
             moment weer uitschrijven via de afmeldlink onderaan de e-mail.
           </p>
+          <p className="mt-4 leading-8 text-gray-600">
+            Voor deze nieuwsbrief- en e-mailinschrijvingen wordt gebruikgemaakt
+            van MailerLite als e-maildienstverlener.
+          </p>
         </section>
 
         <section className="mt-10">
@@ -70,8 +74,9 @@ export default function PrivacyPage() {
           <p className="mt-4 leading-8 text-gray-600">
             Persoonsgegevens worden niet verkocht aan derden. Alleen wanneer dit
             nodig is voor het functioneren van de website of e-maildienst, kan
-            gebruik worden gemaakt van betrouwbare verwerkers, zoals een
-            nieuwsbriefsysteem of hostingpartij.
+            gebruik worden gemaakt van betrouwbare verwerkers, zoals MailerLite
+            voor nieuwsbriefinschrijvingen, Formspree voor contactformulieren
+            en de hostingpartij van deze website.
           </p>
         </section>
 
