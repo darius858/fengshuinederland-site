@@ -6,10 +6,11 @@ import { createMetadata } from "../seo";
 export const metadata: Metadata = createMetadata({
   title: "Diensten | Feng Shui Nederland",
   description:
-    "Bekijk de Feng Shui diensten van Feng Shui Nederland: online sessies, bedrijfsadvies en workshops voor meer rust, focus en overzicht in je werkruimte.",
+    "Bekijk de Feng Shui diensten en werkwijze van Feng Shui Nederland: online sessies, bedrijfsadvies en workshops voor meer rust, focus en overzicht in je werkruimte.",
   path: "/diensten",
   keywords: [
     "Feng Shui diensten",
+    "werkwijze Feng Shui",
     "Feng Shui bedrijfsadvies",
     "online Feng Shui sessie",
     "Feng Shui workshop",

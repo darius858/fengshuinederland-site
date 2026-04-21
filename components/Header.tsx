@@ -2,51 +2,22 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/diensten", label: "Diensten" },
-  { href: "/werkwijze", label: "Werkwijze" },
-  { href: "/over-mij", label: "Over mij" },
   { href: "/nine-star-ki", label: "Nine Star Ki" },
+  { href: "/aanbod", label: "Aanbod" },
+  { href: "/over-mij", label: "Over mij" },
   { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
-  const [calculatorOpen, setCalculatorOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [mobileCalculatorOpen, setMobileCalculatorOpen] = useState(false);
-
-  const dropdownRef = useRef<HTMLDivElement | null>(null);
-  const mobileMenuRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
-        setCalculatorOpen(false);
-      }
-
-      if (
-        mobileMenuRef.current &&
-        !mobileMenuRef.current.contains(event.target as Node)
-      ) {
-        setMobileCalculatorOpen(false);
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
 
   function closeMobileMenu() {
     setMobileMenuOpen(false);
-    setMobileCalculatorOpen(false);
   }
 
   return (
@@ -89,39 +60,12 @@ export default function Header() {
           </nav>
 
           <div className="hidden items-center gap-3 md:flex">
-            <div className="relative" ref={dropdownRef}>
-              <button
-                type="button"
-                onClick={() => setCalculatorOpen((prev) => !prev)}
-                className="rounded-full border border-[#c57b57] px-5 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
-              >
-                Ontdek je reeks
-              </button>
-
-              {calculatorOpen && (
-                <div className="absolute right-0 top-full z-50 mt-2 w-64 overflow-hidden rounded-xl border border-[#eee7dd] bg-white shadow-lg">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=nl.fengshuinederland.ninestarkicalculator&pcampaignid=web_share"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
-                    onClick={() => setCalculatorOpen(false)}
-                  >
-                    Android app downloaden
-                  </a>
-
-                  <a
-                    href="https://app.fengshuinederland.nl/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
-                    onClick={() => setCalculatorOpen(false)}
-                  >
-                    Open webversie
-                  </a>
-                </div>
-              )}
-            </div>
+            <Link
+              href="/nine-star-ki-calculator"
+              className="rounded-full border border-[#c57b57] px-5 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+            >
+              Bereken je reeks
+            </Link>
 
             <Link
               href="/contact"
@@ -145,10 +89,7 @@ export default function Header() {
       </div>
 
       {mobileMenuOpen && (
-        <div
-          ref={mobileMenuRef}
-          className="border-t border-[#e9e2d8] bg-white px-6 pb-6 pt-4 md:hidden"
-        >
+        <div className="border-t border-[#e9e2d8] bg-white px-6 pb-6 pt-4 md:hidden">
           <nav className="flex flex-col gap-4 text-base text-gray-700">
             {navItems.map((item) => (
               <Link
@@ -162,38 +103,22 @@ export default function Header() {
             ))}
 
             <div className="pt-2">
-              <button
-                type="button"
-                onClick={() => setMobileCalculatorOpen((prev) => !prev)}
-                className="w-full rounded-full border border-[#c57b57] px-5 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              <Link
+                href="/nine-star-ki-calculator"
+                className="block w-full rounded-full border border-[#c57b57] px-5 py-3 text-center text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                onClick={closeMobileMenu}
               >
-                Ontdek je reeks
-              </button>
-
-              {mobileCalculatorOpen && (
-                <div className="mt-3 overflow-hidden rounded-xl border border-[#eee7dd] bg-[#fcfaf7]">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=nl.fengshuinederland.ninestarkicalculator&pcampaignid=web_share"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
-                    onClick={closeMobileMenu}
-                  >
-                    Android app downloaden
-                  </a>
-
-                  <a
-                    href="https://app.fengshuinederland.nl/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-3 text-sm text-gray-700 transition hover:bg-[#f8f6f1]"
-                    onClick={closeMobileMenu}
-                  >
-                    Open webversie
-                  </a>
-                </div>
-              )}
+                Bereken je reeks
+              </Link>
             </div>
+
+            <Link
+              href="/aanbod"
+              className="mt-2 rounded-full border border-[#e7d6c8] bg-[#fcfaf7] px-5 py-3 text-center text-sm font-medium text-gray-800 transition hover:border-[#c57b57] hover:text-[#c57b57]"
+              onClick={closeMobileMenu}
+            >
+              Bekijk aanbod
+            </Link>
 
             <Link
               href="/contact"

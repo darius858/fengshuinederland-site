@@ -60,6 +60,13 @@ export default function Home() {
 
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <a
+                  href="/nine-star-ki-calculator"
+                  className="rounded-full border border-white/70 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
+                >
+                  Bereken je reeks
+                </a>
+
+                <a
                   href="/contact"
                   className="rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
                 >
@@ -71,6 +78,13 @@ export default function Home() {
                   className="rounded-full border border-white/70 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
                 >
                   Bekijk diensten
+                </a>
+
+                <a
+                  href="/aanbod"
+                  className="rounded-full border border-white/70 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
+                >
+                  Bekijk aanbod
                 </a>
               </div>
             </motion.div>
@@ -232,6 +246,131 @@ export default function Home() {
               Dit helpt om ruimtes niet alleen goed in te richten, maar ook
               beter af te stemmen op de mensen die erin werken.
             </p>
+          </motion.div>
+        </section>
+
+        <section className="bg-white px-6 py-20 md:py-24">
+          <motion.div
+            className="mx-auto grid max-w-6xl gap-10 rounded-[2rem] bg-[#fcfaf7] p-8 shadow-sm ring-1 ring-[#eee7dd] md:grid-cols-[1.05fr_0.95fr] md:items-center md:p-12"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <div>
+              <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+                Nine Star Ki Calculator
+              </p>
+
+              <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-4xl">
+                Bereken je Nine Star Ki reeks
+              </h2>
+
+              <p className="mt-6 leading-8 text-gray-600">
+                Ben je benieuwd welk getal bij jouw geboortedatum hoort? Met de
+                Nine Star Ki Calculator ontdek je jouw reeks en krijg je meer
+                inzicht in je energie, kwaliteiten en levenspatronen.
+              </p>
+
+              <p className="mt-4 leading-8 text-gray-600">
+                Nine Star Ki helpt je om jezelf beter te begrijpen. Je ontdekt
+                hoe jij van nature beweegt, waar je kracht ligt en wat jou
+                helpt om meer rust en balans te ervaren.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="/nine-star-ki-calculator"
+                  className="rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
+                >
+                  Open calculator
+                </a>
+
+                <a
+                  href="/nine-star-ki"
+                  className="rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                >
+                  Meer over Nine Star Ki
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-[1.75rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">
+              <h3 className="text-xl font-semibold text-gray-800">
+                Wat je ontdekt
+              </h3>
+
+              <ul className="mt-6 space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
+                  <span className="text-gray-700">
+                    Welk Nine Star Ki getal bij jouw geboortedatum hoort
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
+                  <span className="text-gray-700">
+                    Wat jouw energie zegt over je kwaliteiten en patronen
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
+                  <span className="text-gray-700">
+                    Waarom begin februari belangrijk is bij de berekening
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
+                  <span className="text-gray-700">
+                    Hoe je met die inzichten meer rust en richting kunt ervaren
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </section>
+
+        <section className="bg-white px-6 py-20 md:py-24">
+          <motion.div
+            className="mx-auto max-w-5xl rounded-[2rem] bg-[#fcfaf7] p-8 text-center shadow-sm ring-1 ring-[#eee7dd] md:p-12"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+              Nieuw cursusaanbod
+            </p>
+
+            <h2 className="mt-4 text-3xl font-semibold md:text-4xl">
+              Omarm Jezelf
+            </h2>
+
+            <p className="mt-3 text-lg text-[#8a5a3b]">
+              Leer jezelf begrijpen met Nine Star Ki
+            </p>
+
+            <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-600">
+              Een warme online cursus voor meer zelfinzicht, zachtheid en
+              begrip voor je eigen energie en levenspatronen. Ideaal als je op
+              een toegankelijke manier wilt kennismaken met Nine Star Ki.
+            </p>
+
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="/aanbod"
+                className="rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
+              >
+                Bekijk aanbod
+              </a>
+
+              <a
+                href="/contact"
+                className="rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              >
+                Meld je interesse
+              </a>
+            </div>
           </motion.div>
         </section>
 

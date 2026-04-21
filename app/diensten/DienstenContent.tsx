@@ -73,6 +73,68 @@ export default function DienstenContent() {
           </div>
         </div>
 
+        <motion.section
+          id="werkwijze"
+          className="mt-20 rounded-[2.5rem] bg-white px-8 py-12 shadow-sm ring-1 ring-[#eee7dd] md:px-12"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.25 }}
+        >
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+              Werkwijze
+            </p>
+
+            <h2 className="mt-4 text-3xl font-semibold">
+              Helder, persoonlijk en praktisch
+            </h2>
+
+            <p className="mt-4 leading-7 text-gray-600">
+              Mijn aanpak is rustig en overzichtelijk. Je krijgt geen vage
+              theorie, maar duidelijke stappen en advies dat past bij jouw
+              ruimte, manier van werken en vraag.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <div className="rounded-[1.75rem] bg-[#f8f6f1] p-8 ring-1 ring-[#eee7dd]">
+              <span className="text-sm font-medium text-[#c57b57]">Stap 1</span>
+              <h3 className="mt-3 text-xl font-semibold">Kennismaking</h3>
+              <p className="mt-4 leading-7 text-gray-600">
+                We bespreken je ruimte, je uitdagingen en wat je wilt
+                verbeteren. Zo wordt snel duidelijk waar de meeste winst zit.
+              </p>
+            </div>
+
+            <div className="rounded-[1.75rem] bg-[#f8f6f1] p-8 ring-1 ring-[#eee7dd]">
+              <span className="text-sm font-medium text-[#c57b57]">Stap 2</span>
+              <h3 className="mt-3 text-xl font-semibold">Analyse</h3>
+              <p className="mt-4 leading-7 text-gray-600">
+                Ik kijk naar de indeling en energie van de ruimte en waar rust,
+                flow en balans versterkt kunnen worden.
+              </p>
+            </div>
+
+            <div className="rounded-[1.75rem] bg-[#f8f6f1] p-8 ring-1 ring-[#eee7dd]">
+              <span className="text-sm font-medium text-[#c57b57]">Stap 3</span>
+              <h3 className="mt-3 text-xl font-semibold">Advies</h3>
+              <p className="mt-4 leading-7 text-gray-600">
+                Je ontvangt duidelijke adviezen die logisch voelen en direct
+                toepasbaar zijn in je eigen werk- of leefruimte.
+              </p>
+            </div>
+
+            <div className="rounded-[1.75rem] bg-[#f8f6f1] p-8 ring-1 ring-[#eee7dd]">
+              <span className="text-sm font-medium text-[#c57b57]">Stap 4</span>
+              <h3 className="mt-3 text-xl font-semibold">Toepassen</h3>
+              <p className="mt-4 leading-7 text-gray-600">
+                Met kleine of grotere aanpassingen ontstaat er meer rust,
+                overzicht en richting in je ruimte en in hoe je werkt.
+              </p>
+            </div>
+          </div>
+        </motion.section>
+
         <motion.div
           className="mt-20"
           initial={{ opacity: 0, y: 24 }}

@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://fengshuinederland.nl/werkwijze",
+      url: "https://fengshuinederland.nl/aanbod",
       lastModified: new Date(),
     },
     {
@@ -20,6 +20,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://fengshuinederland.nl/nine-star-ki",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://fengshuinederland.nl/nine-star-ki-calculator",
       lastModified: new Date(),
     },
     {

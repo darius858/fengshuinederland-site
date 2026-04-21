@@ -148,24 +148,23 @@ export default function NineStarKiContent() {
           </p>
 
           <h2 className="mt-4 text-3xl font-semibold md:text-4xl">
-            Bereken eenvoudig jouw Nine Star Ki profiel
+            Bereken eenvoudig jouw Nine Star Ki reeks
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-600">
-            Gebruik de calculator om snel inzicht te krijgen in jouw
-            persoonlijke energie. Je kunt direct de webversie openen of de
-            Android app downloaden via Google Play.
+            Bereken je reeks en ontdek wat jouw getal zegt over je energie,
+            kwaliteiten en levenspatronen. Op de calculatorpagina vind je ook
+            uitleg over Nine Star Ki, de betekenis van de cijfers en veel
+            gestelde vragen.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a
-              href="https://app.fengshuinederland.nl/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/nine-star-ki-calculator"
               className="inline-flex rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
             >
-              Open webversie
-            </a>
+              Open calculatorpagina
+            </Link>
 
             <a
               href="https://play.google.com/store/apps/details?id=nl.fengshuinederland.ninestarkicalculator&pcampaignid=web_share"
@@ -303,14 +302,12 @@ export default function NineStarKiContent() {
               Plan gratis intake
             </Link>
 
-            <a
-              href="https://app.fengshuinederland.nl/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/nine-star-ki-calculator"
               className="rounded-full border border-white/30 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
             >
               Open calculator
-            </a>
+            </Link>
           </div>
         </motion.div>
       </section>

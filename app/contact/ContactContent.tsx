@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function ContactContent() {
@@ -49,12 +50,12 @@ export default function ContactContent() {
           </p>
 
           <div className="mt-10">
-            <a
+            <Link
               href="/"
               className="inline-flex rounded-full bg-[#c57b57] px-6 py-3 text-white transition hover:bg-[#b36c49]"
             >
               Terug naar home
-            </a>
+            </Link>
           </div>
         </div>
       </main>
