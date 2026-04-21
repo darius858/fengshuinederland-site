@@ -71,9 +71,9 @@ const faqs = [
       "Ja, je kunt de calculator gratis gebruiken om jouw Nine Star Ki reeks te berekenen.",
   },
   {
-    question: "Waarom is 4 februari belangrijk?",
+    question: "Waarom kan het begin van het jaar invloed hebben?",
     answer:
-      "Nine Star Ki werkt met het zonnejaar. Daardoor kan een geboortedatum aan het begin van januari of februari invloed hebben op de uitkomst.",
+      "Binnen Nine Star Ki wordt gekeken naar een eigen jaarindeling. Daardoor kan een geboortedatum aan het begin van het jaar invloed hebben op de uitkomst.",
   },
   {
     question: "Kan Nine Star Ki helpen bij zelfinzicht?",
@@ -205,21 +205,20 @@ export default function NineStarKiCalculatorPage() {
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
           <h2 className="text-3xl font-semibold">
-            Hoe wordt je reeks berekend?
+            Hoe wordt jouw reeks berekend?
           </h2>
 
           <p className="mt-6 leading-8 text-gray-600">
             Je Nine Star Ki reeks wordt berekend op basis van je geboortedatum.
-            Daarbij is het belangrijk om te weten dat Nine Star Ki niet uitgaat
-            van het gewone kalenderjaar, maar van het zonnejaar. Dat begint
-            rond 4 februari.
+            Daarbij wordt binnen Nine Star Ki gekeken naar een eigen
+            jaarindeling, waardoor de overgang aan het begin van het jaar net
+            anders kan worden benaderd dan in het gewone kalenderjaar.
           </p>
 
           <p className="mt-4 leading-8 text-gray-600">
-            Dat betekent dat een geboortedatum aan het begin van januari of
-            februari invloed kan hebben op je uitkomst. De calculator helpt je
-            om dit eenvoudig te berekenen, zodat je direct jouw reeks kunt
-            ontdekken.
+            Daardoor kan een geboortedatum aan het begin van het jaar invloed
+            hebben op de uitkomst. De calculator houdt hier automatisch rekening
+            mee, zodat je op een eenvoudige manier jouw reeks kunt ontdekken.
           </p>
         </section>
 
