@@ -72,20 +72,6 @@ export default function Home() {
                 >
                   Plan gratis intake
                 </a>
-
-                <a
-                  href="/diensten"
-                  className="rounded-full border border-white/70 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
-                >
-                  Bekijk diensten
-                </a>
-
-                <a
-                  href="/aanbod"
-                  className="rounded-full border border-white/70 px-7 py-3 text-sm font-medium text-white transition hover:bg-white/10"
-                >
-                  Bekijk aanbod
-                </a>
               </div>
             </motion.div>
           </div>
