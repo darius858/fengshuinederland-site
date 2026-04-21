@@ -5,7 +5,7 @@ export default function Footer() {
         <p className="font-medium text-gray-800">Feng Shui Nederland</p>
 
         <p className="mt-2">
-          Praktisch Feng Shui advies voor rust, flow en focus
+          Praktisch Feng Shui advies voor rust, focus en balans
         </p>
 
         <div className="mt-4">
