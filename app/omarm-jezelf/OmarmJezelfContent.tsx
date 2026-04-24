@@ -101,8 +101,8 @@ export default function OmarmJezelfContent() {
           <div className="space-y-6">
             <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
               <Image
-                src="/hero.jpg"
-                alt="Warme rustige sfeer die past bij de cursus Omarm Jezelf"
+                src="/omarm-jezelf-hero.svg"
+                alt="Warme merkillustratie die past bij de cursus Omarm Jezelf"
                 width={1200}
                 height={900}
                 className="h-[320px] w-full object-cover"
@@ -159,8 +159,8 @@ export default function OmarmJezelfContent() {
         <section className="mt-14 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
             <Image
-              src="/werkruimte.jpg"
-              alt="Rustige werkruimte die past bij reflectie, inzicht en innerlijk werk"
+              src="/omarm-jezelf-reflectie.svg"
+              alt="Rustige illustratie over reflectie, zelfinzicht en innerlijk werk"
               width={1200}
               height={900}
               className="h-[320px] w-full object-cover"
@@ -217,8 +217,8 @@ export default function OmarmJezelfContent() {
 
             <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
               <Image
-                src="/nine-star-ki.jpg"
-                alt="Nine Star Ki beeld dat past bij energie, patronen en zelfinzicht"
+                src="/omarm-jezelf-energie.svg"
+                alt="Abstracte Nine Star Ki illustratie over energie, patronen en zelfinzicht"
                 width={1200}
                 height={900}
                 className="h-[280px] w-full object-cover"
