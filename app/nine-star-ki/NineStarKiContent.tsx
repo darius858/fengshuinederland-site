@@ -40,23 +40,13 @@ export default function NineStarKiContent() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex items-center justify-center">
-            <div className="relative w-full max-w-[320px]">
-              <Image
-                src="/nine-star-ki.jpg"
-                alt="Nine Star Ki energie en inzicht"
-                width={1200}
-                height={1200}
-                className="w-full rounded-[2rem] object-cover shadow-md ring-1 ring-[#eee7dd]"
-              />
-
-              <div className="pointer-events-none absolute left-[36.8%] top-[77.1%] flex h-[11%] w-[11%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[rgba(248,246,241,0.96)] text-[clamp(1.8rem,4.5vw,2.7rem)] font-serif text-[#5c4735] shadow-[0_1px_4px_rgba(0,0,0,0.08)]">
-                8
-              </div>
-
-              <div className="pointer-events-none absolute left-[50.2%] top-[77.1%] flex h-[11%] w-[11%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[rgba(248,246,241,0.96)] text-[clamp(1.8rem,4.5vw,2.7rem)] font-serif text-[#5c4735] shadow-[0_1px_4px_rgba(0,0,0,0.08)]">
-                1
-              </div>
-            </div>
+            <Image
+              src="/nine-star-ki.jpg"
+              alt="Nine Star Ki energie en inzicht"
+              width={1200}
+              height={1200}
+              className="w-full max-w-[320px] rounded-[2rem] object-cover shadow-md ring-1 ring-[#eee7dd]"
+            />
           </div>
 
           <div>
