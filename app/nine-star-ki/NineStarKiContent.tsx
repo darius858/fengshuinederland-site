@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function NineStarKiContent() {
@@ -39,9 +40,11 @@ export default function NineStarKiContent() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex items-center justify-center">
-            <img
-              src="/nine-star-ki.jpg"
-              alt="Nine Star Ki energie en inzicht"
+            <Image
+              src="/nine-star-ki-grid.svg"
+              alt="Nine Star Ki basispatroon met de cijfers in de juiste plaatsing"
+              width={1200}
+              height={1200}
               className="w-full max-w-[320px] rounded-[2rem] object-cover shadow-md ring-1 ring-[#eee7dd]"
             />
           </div>
@@ -81,9 +84,11 @@ export default function NineStarKiContent() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-center">
-            <img
+            <Image
               src="/five-elements-cycle.jpg"
               alt="Vijf elementen cyclus Feng Shui"
+              width={1200}
+              height={900}
               className="w-full max-w-sm rounded-[2rem] object-cover shadow-sm ring-1 ring-[#eee7dd]"
             />
           </div>
