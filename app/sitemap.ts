@@ -27,6 +27,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://fengshuinederland.nl/omarm-jezelf",
+      lastModified: new Date(),
+    },
+    {
       url: "https://fengshuinederland.nl/contact",
       lastModified: new Date(),
     },

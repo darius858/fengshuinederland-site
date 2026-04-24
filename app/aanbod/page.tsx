@@ -87,7 +87,7 @@ export default function AanbodPage() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="/contact"
+                href="/omarm-jezelf"
                 className="rounded-full bg-[#c57b57] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
               >
                 Meld je interesse
