@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
   },
   openGraph: {
     title: `${siteName} | Rust, focus en balans`,
