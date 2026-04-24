@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -97,19 +98,32 @@ export default function OmarmJezelfContent() {
             </div>
           </div>
 
-          <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
-            <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
-              Wat deze cursus je brengt
-            </p>
+          <div className="space-y-6">
+            <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
+              <Image
+                src="/hero.jpg"
+                alt="Warme rustige sfeer die past bij de cursus Omarm Jezelf"
+                width={1200}
+                height={900}
+                className="h-[320px] w-full object-cover"
+                priority
+              />
+            </div>
 
-            <ul className="mt-6 space-y-4">
-              {benefits.map((benefit) => (
-                <li key={benefit} className="flex items-start gap-3">
-                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
-                  <span className="leading-7 text-gray-700">{benefit}</span>
-                </li>
-              ))}
-            </ul>
+            <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
+              <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
+                Wat deze cursus je brengt
+              </p>
+
+              <ul className="mt-6 space-y-4">
+                {benefits.map((benefit) => (
+                  <li key={benefit} className="flex items-start gap-3">
+                    <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#c57b57]" />
+                    <span className="leading-7 text-gray-700">{benefit}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -142,28 +156,74 @@ export default function OmarmJezelfContent() {
           </div>
         </section>
 
-        <section className="mt-14 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-          <div className="rounded-[2rem] bg-[#fcfaf7] p-8 ring-1 ring-[#eee7dd] md:p-10">
+        <section className="mt-14 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+          <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
+            <Image
+              src="/werkruimte.jpg"
+              alt="Rustige werkruimte die past bij reflectie, inzicht en innerlijk werk"
+              width={1200}
+              height={900}
+              className="h-[320px] w-full object-cover"
+            />
+          </div>
+
+          <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
             <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
-              Waarom Nine Star Ki
+              Rust en reflectie
             </p>
 
             <h2 className="mt-4 text-3xl font-semibold leading-tight">
-              Een zachte ingang naar meer zelfinzicht
+              Een cursus om even stil te staan bij jezelf
             </h2>
 
             <p className="mt-5 leading-8 text-gray-600">
-              Nine Star Ki helpt je om jezelf beter te begrijpen via energie,
-              karakter en levenspatronen. Niet om jezelf in een hokje te
-              stoppen, maar om te herkennen wat jou drijft, wat je nodig hebt
-              en waar je soms uit balans raakt.
+              Omarm Jezelf is geen zware theoriecursus. Het is een zachte en
+              heldere verdieping waarin je stap voor stap leert kijken naar wie
+              jij bent, wat jou beweegt en wat je nodig hebt om meer in balans
+              te zijn.
             </p>
 
             <p className="mt-5 leading-8 text-gray-600">
-              In Omarm Jezelf gebruiken we Nine Star Ki als spiegel. Zodat je
-              jezelf niet harder hoeft aan te pakken, maar juist beter leert
-              verstaan.
+              Juist door rust, herkenning en praktische reflectie ontstaat er
+              ruimte voor zelfbegrip.
             </p>
+          </div>
+        </section>
+
+        <section className="mt-14 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          <div className="space-y-6">
+            <div className="rounded-[2rem] bg-[#fcfaf7] p-8 ring-1 ring-[#eee7dd] md:p-10">
+              <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
+                Waarom Nine Star Ki
+              </p>
+
+              <h2 className="mt-4 text-3xl font-semibold leading-tight">
+                Een zachte ingang naar meer zelfinzicht
+              </h2>
+
+              <p className="mt-5 leading-8 text-gray-600">
+                Nine Star Ki helpt je om jezelf beter te begrijpen via energie,
+                karakter en levenspatronen. Niet om jezelf in een hokje te
+                stoppen, maar om te herkennen wat jou drijft, wat je nodig hebt
+                en waar je soms uit balans raakt.
+              </p>
+
+              <p className="mt-5 leading-8 text-gray-600">
+                In Omarm Jezelf gebruiken we Nine Star Ki als spiegel. Zodat je
+                jezelf niet harder hoeft aan te pakken, maar juist beter leert
+                verstaan.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
+              <Image
+                src="/nine-star-ki.jpg"
+                alt="Nine Star Ki beeld dat past bij energie, patronen en zelfinzicht"
+                width={1200}
+                height={900}
+                className="h-[280px] w-full object-cover"
+              />
+            </div>
           </div>
 
           <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
