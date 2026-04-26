@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Script from "next/script";
 
 const organizationSchema = {
@@ -25,9 +26,11 @@ export default function Home() {
       />
       <main className="bg-[#f8f6f1] text-gray-800">
         <section className="relative overflow-hidden">
-          <img
+          <Image
             src="/hero.jpg"
             alt="Rustige werkruimte"
+            width={1920}
+            height={1400}
             className="h-[78vh] min-h-[560px] w-full object-cover"
           />
 
@@ -124,9 +127,11 @@ export default function Home() {
             </div>
 
             <div>
-              <img
+              <Image
                 src="/werkruimte.jpg"
                 alt="Feng Shui werkruimte"
+                width={1200}
+                height={900}
                 className="h-full w-full rounded-[2rem] object-cover shadow-sm"
               />
             </div>
@@ -435,9 +440,11 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <div>
-              <img
+              <Image
                 src="/kantoor.jpg"
                 alt="Rustige kantoorruimte"
+                width={1200}
+                height={900}
                 className="w-full rounded-[2rem] object-cover shadow-sm"
               />
             </div>

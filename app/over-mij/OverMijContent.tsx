@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function OverMijContent() {
@@ -42,9 +43,11 @@ export default function OverMijContent() {
           viewport={{ once: true }}
         >
           <div>
-            <img
+            <Image
               src="/profiel.jpg"
               alt="Feng Shui Nederland"
+              width={640}
+              height={800}
               className="mx-auto w-full max-w-[320px] rounded-[2rem] object-cover shadow-md ring-1 ring-[#eee7dd]"
             />
           </div>
