@@ -131,8 +131,8 @@ export default function OmarmJezelfContent() {
         <section className="mt-14 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
             <Image
-              src="/omarm-jezelf-reflectie.svg"
-              alt="Rustige illustratie over reflectie, zelfinzicht en innerlijk werk"
+              src="/omarm-jezelf-reflectie-landschap.png"
+              alt="Vrouw in een rustig landschap als beeld voor reflectie, zelfinzicht en innerlijke groei"
               width={1200}
               height={900}
               className="h-[320px] w-full object-cover"
