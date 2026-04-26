@@ -73,8 +73,8 @@ export default function OmarmJezelfContent() {
           <div className="space-y-6">
             <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
               <Image
-                src="/omarm-jezelf-hero.svg"
-                alt="Warme merkillustratie die past bij de cursus Omarm Jezelf"
+                src="/omarm-jezelf-hero-lifestyle.png"
+                alt="Vrouw die Omarm Jezelf op een tablet volgt in een warme, rustige setting"
                 width={1200}
                 height={900}
                 className="h-[320px] w-full object-cover"
