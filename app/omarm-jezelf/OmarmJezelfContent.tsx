@@ -189,8 +189,8 @@ export default function OmarmJezelfContent() {
 
             <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
               <Image
-                src="/omarm-jezelf-energie.svg"
-                alt="Abstracte Nine Star Ki illustratie over energie, patronen en zelfinzicht"
+                src="/omarm-jezelf-bagua.png"
+                alt="Conceptuele Feng Shui bagua op papier als beeld voor Nine Star Ki en zelfinzicht"
                 width={1200}
                 height={900}
                 className="h-[280px] w-full object-cover"
