@@ -118,6 +118,13 @@ export default function BaguaPage() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
+                href="/wat-is-feng-shui"
+                className="rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              >
+                Lees wat Feng Shui is
+              </Link>
+
+              <Link
                 href="/diensten"
                 className="rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
               >

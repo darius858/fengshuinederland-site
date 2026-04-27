@@ -127,6 +127,13 @@ export default function Home() {
 
               <div className="mt-8">
                 <a
+                  href="/wat-is-feng-shui"
+                  className="mr-4 inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                >
+                  Wat is Feng Shui?
+                </a>
+
+                <a
                   href="/wat-is-de-bagua"
                   className="inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
                 >
