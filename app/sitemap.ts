@@ -35,6 +35,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://fengshuinederland.nl/wat-is-de-bagua",
+      lastModified: new Date(),
+    },
+    {
       url: "https://fengshuinederland.nl/contact",
       lastModified: new Date(),
     },

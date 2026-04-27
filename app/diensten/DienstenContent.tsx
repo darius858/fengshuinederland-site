@@ -44,6 +44,15 @@ export default function DienstenContent() {
               Vaak zit de grootste winst in kleine aanpassingen die direct
               verschil maken.
             </p>
+
+            <div className="mt-6">
+              <Link
+                href="/wat-is-de-bagua"
+                className="inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              >
+                Lees meer over de bagua
+              </Link>
+            </div>
           </div>
         </motion.div>
 
