@@ -4,6 +4,29 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
+const faqs = [
+  {
+    question: "Wat is Nine Star Ki precies?",
+    answer:
+      "Nine Star Ki is een methode die werkt met energie, karakter en natuurlijke patronen. Het helpt om jezelf beter te begrijpen en meer inzicht te krijgen in gedrag, communicatie en samenwerking.",
+  },
+  {
+    question: "Hoe wordt mijn Nine Star Ki getal berekend?",
+    answer:
+      "Je getal wordt berekend op basis van je geboortedatum. Daarbij wordt binnen Nine Star Ki gekeken naar een eigen jaarindeling, waardoor het begin van het jaar net anders kan worden benaderd dan in het gewone kalenderjaar.",
+  },
+  {
+    question: "Waarvoor gebruik je Nine Star Ki?",
+    answer:
+      "Je kunt Nine Star Ki gebruiken voor zelfinzicht, relatievragen, teamontwikkeling, bewustere keuzes en meer begrip voor je eigen energie en levenspatronen.",
+  },
+  {
+    question: "Wat is het verschil tussen Feng Shui en Nine Star Ki?",
+    answer:
+      "Feng Shui kijkt vooral naar de invloed van een ruimte en omgeving. Nine Star Ki richt zich meer op de energie van mensen zelf. Juist de combinatie van die twee geeft vaak veel verdieping.",
+  },
+];
+
 export default function NineStarKiContent() {
   return (
     <main className="bg-[#f8f6f1] text-gray-800">
@@ -120,6 +143,22 @@ export default function NineStarKiContent() {
               metaal en water. Deze elementen volgen elkaar op in een
               natuurlijke cyclus en beinvloeden hoe energie zich ontwikkelt.
             </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Link
+                href="/nine-star-ki-cijfers"
+                className="inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              >
+                Betekenis van de cijfers 1 t/m 9
+              </Link>
+
+              <Link
+                href="/wat-is-de-bagua"
+                className="inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+              >
+                Lees wat de bagua is
+              </Link>
+            </div>
           </div>
         </motion.div>
 
@@ -283,6 +322,32 @@ export default function NineStarKiContent() {
               is Nine Star Ki ook waardevol voor teambuilding, samenwerking en
               bewust leiderschap.
             </p>
+          </div>
+        </motion.div>
+      </section>
+
+      <section className="px-6 pb-20 md:pb-24">
+        <motion.div
+          className="mx-auto max-w-5xl rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <h2 className="text-3xl font-semibold">Veelgestelde vragen</h2>
+
+          <div className="mt-10 space-y-6">
+            {faqs.map((faq) => (
+              <div
+                key={faq.question}
+                className="rounded-2xl bg-[#fcfaf7] p-6 ring-1 ring-[#efe7dd]"
+              >
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {faq.question}
+                </h3>
+                <p className="mt-3 leading-7 text-gray-600">{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </motion.div>
       </section>
