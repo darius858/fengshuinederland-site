@@ -234,6 +234,13 @@ export default function DienstenContent() {
 
           <div className="mt-6">
             <Link
+              href="/feng-shui-werkplek"
+              className="mr-4 rounded-full border border-[#c57b57] px-6 py-3 text-[#c57b57]"
+            >
+              Lees meer over je werkplek
+            </Link>
+
+            <Link
               href="/contact"
               className="rounded-full bg-[#c57b57] px-6 py-3 text-white"
             >
