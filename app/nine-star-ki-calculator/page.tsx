@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { createMetadata } from "../seo";
 
@@ -250,6 +251,15 @@ export default function NineStarKiCalculatorPage() {
             Je reeks is meer dan alleen een getal. Het geeft richting aan hoe
             jij jezelf beter kunt leren verstaan.
           </p>
+
+          <div className="mt-8">
+            <Link
+              href="/nine-star-ki-cijfers"
+              className="inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+            >
+              Lees de uitgebreide betekenis van 1 t/m 9
+            </Link>
+          </div>
         </section>
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">

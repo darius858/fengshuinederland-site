@@ -137,6 +137,15 @@ export default function NineStarKiContent() {
             Juist dat inzicht helpt om jezelf beter te begrijpen en ook
             prettiger samen te werken met anderen.
           </p>
+
+          <div className="mt-8">
+            <Link
+              href="/nine-star-ki-cijfers"
+              className="inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+            >
+              Bekijk de betekenis van de cijfers 1 t/m 9
+            </Link>
+          </div>
         </div>
       </section>
 
