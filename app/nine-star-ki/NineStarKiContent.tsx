@@ -48,8 +48,8 @@ export default function NineStarKiContent() {
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Nine Star Ki geeft inzicht in jouw persoonlijke energie,
             karaktereigenschappen en manier van communiceren. Het helpt om
-            jezelf beter te begrijpen, bewuster keuzes te maken en meer rust en
-            richting te ervaren in werk en dagelijks leven.
+            jezelf beter te begrijpen, bewustere keuzes te maken en meer rust
+            en richting te ervaren in werk en dagelijks leven.
           </p>
         </motion.div>
       </section>
@@ -85,14 +85,14 @@ export default function NineStarKiContent() {
               Nine Star Ki is een methode die inzicht geeft in de energie
               waarmee je van nature beweegt in het leven. Het laat zien welke
               kwaliteiten, patronen en valkuilen bij jou horen, en waarom
-              bepaalde situaties je energie geven of juist kosten.
+              bepaalde situaties je energie geven of je juist energie kosten.
             </p>
 
             <p className="mt-4 leading-8 text-gray-600">
-              Voor mij is Nine Star Ki een waardevolle aanvulling op Feng Shui:
-              niet alleen kijken naar de ruimte, maar ook naar de mensen die
-              erin leven en werken. Juist die combinatie maakt het praktisch,
-              persoonlijk en verdiepend.
+              Voor mij is Nine Star Ki een waardevolle aanvulling op Feng Shui.
+              Je kijkt dan niet alleen naar de ruimte, maar ook naar de mensen
+              die erin leven en werken. Juist die combinatie maakt het
+              persoonlijk, praktisch en verdiepend.
             </p>
           </div>
         </motion.div>
@@ -207,8 +207,8 @@ export default function NineStarKiContent() {
           <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-600">
             Bereken je reeks en ontdek wat jouw getal zegt over je energie,
             kwaliteiten en levenspatronen. Op de calculatorpagina vind je ook
-            uitleg over Nine Star Ki, de betekenis van de cijfers en veel
-            gestelde vragen.
+            meer uitleg over Nine Star Ki, de betekenis van de cijfers en
+            antwoorden op veelgestelde vragen.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -248,7 +248,7 @@ export default function NineStarKiContent() {
             <h3 className="text-xl font-semibold">Zelfinzicht</h3>
             <p className="mt-4 leading-7 text-gray-600">
               Begrijp beter wat jou motiveert, waar jouw kracht ligt en waarom
-              bepaalde patronen steeds terugkomen.
+              bepaalde patronen zich blijven herhalen.
             </p>
           </div>
 
@@ -263,8 +263,8 @@ export default function NineStarKiContent() {
           <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">
             <h3 className="text-xl font-semibold">Samenwerking</h3>
             <p className="mt-4 leading-7 text-gray-600">
-              Ontdek hoe verschillende energieen binnen een team elkaar kunnen
-              versterken in plaats van tegenwerken.
+              Ontdek hoe verschillende energieen binnen een team elkaar beter
+              kunnen aanvullen en versterken.
             </p>
           </div>
         </motion.div>

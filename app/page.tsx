@@ -52,13 +52,13 @@ export default function Home() {
               </h1>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/90 md:text-xl">
-                Praktisch Feng Shui advies voor ondernemers en bedrijven die hun
-                werkplek rustiger, helderder en prettiger willen maken.
+                Ik help ondernemers en bedrijven om meer rust, focus en balans
+                te brengen in hun werkplek.
               </p>
 
               <p className="mx-auto mt-6 max-w-2xl text-white/90">
-                Ik maak Feng Shui begrijpbaar en praktisch - zonder
-                standaardoplossingen, maar afgestemd op jouw ruimte.
+                Mijn advies is praktisch, helder en afgestemd op jouw ruimte en
+                op hoe jij werkt.
               </p>
 
               <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -94,14 +94,14 @@ export default function Home() {
               </p>
 
               <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-4xl">
-                Een ruimte heeft direct invloed op hoe je werkt en hoe je je
-                voelt
+                Je werkplek doet meer met je dan je vaak denkt
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Wanneer een werkruimte onrustig of onlogisch aanvoelt, merk je
-                dat in je concentratie en energie. Met praktische Feng Shui
-                aanpassingen ontstaat er meer overzicht, rust en flow.
+                Als een werkruimte onrustig of onlogisch aanvoelt, merk je dat
+                vaak in je concentratie en energie. Met praktische Feng Shui
+                aanpassingen ontstaat er meer overzicht, rust en een plek die
+                je beter ondersteunt.
               </p>
 
               <ul className="mt-8 space-y-4">
@@ -168,12 +168,12 @@ export default function Home() {
               </p>
 
               <h2 className="mt-4 text-3xl font-semibold md:text-4xl">
-                Praktisch advies dat direct toepasbaar is
+                Praktisch advies voor een werkplek die beter werkt
               </h2>
 
               <p className="mt-5 leading-8 text-gray-600">
-                Geen zweverigheid, maar heldere aanbevelingen die je werkruimte
-                rustiger, functioneler en prettiger maken.
+                Ik kijk samen met jou naar wat jouw ruimte nodig heeft, zodat je
+                werkplek rustiger, logischer en prettiger aanvoelt.
               </p>
             </div>
 
@@ -245,20 +245,19 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-2xl font-semibold text-gray-800 md:text-3xl">
-              Praktisch Feng Shui zonder zweverigheid
+              Rust, helderheid en een werkplek die bij je past
             </h2>
 
             <p className="mt-6 leading-8 text-gray-600">
-              Feng Shui Nederland helpt ondernemers en professionals om hun
-              ruimte logisch en praktisch in te richten. Geen ingewikkelde
-              regels, maar duidelijke aanpassingen die direct zorgen voor meer
-              rust, focus en overzicht.
+              Ik help ondernemers en professionals om hun ruimte logisch en
+              praktisch in te richten. Geen ingewikkelde regels, maar heldere
+              aanpassingen die zorgen voor meer rust, focus en overzicht.
               <br />
               <br />
-              Naast Feng Shui werk ik ook met Nine Star Ki, een methode die
-              inzicht geeft in persoonlijke energie, gedrag en samenwerking.
-              Dit helpt om ruimtes niet alleen goed in te richten, maar ook
-              beter af te stemmen op de mensen die erin werken.
+              Naast Feng Shui werk ik ook met Nine Star Ki. Dat geeft meer
+              inzicht in energie, gedrag en samenwerking, en helpt om een
+              ruimte niet alleen goed in te richten, maar ook beter af te
+              stemmen op de mensen die erin werken.
             </p>
           </motion.div>
         </section>
@@ -365,9 +364,8 @@ export default function Home() {
             </p>
 
             <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-600">
-              Een warme online cursus voor meer zelfinzicht, zachtheid en
-              begrip voor je eigen energie en levenspatronen. Ideaal als je op
-              een toegankelijke manier wilt kennismaken met Nine Star Ki.
+              Een warme online cursus voor wie zichzelf beter wil begrijpen en
+              op een toegankelijke manier kennis wil maken met Nine Star Ki.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">

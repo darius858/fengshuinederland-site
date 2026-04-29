@@ -49,8 +49,8 @@ export default function OmarmJezelfContent() {
             <p className="mt-8 text-lg leading-8 text-gray-600">
               Omarm Jezelf is een warme en toegankelijke online cursus voor
               vrouwen die meer inzicht willen in zichzelf, hun patronen en hun
-              natuurlijke energie. Via Nine Star Ki leer je met meer zachtheid
-              en helderheid naar jezelf kijken.
+              natuurlijke energie. In deze cursus neem ik je stap voor stap mee,
+              zodat je met meer zachtheid en helderheid naar jezelf kunt kijken.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -111,8 +111,8 @@ export default function OmarmJezelfContent() {
 
             <p className="mt-5 leading-8 text-gray-600">
               Deze cursus is voor vrouwen die voelen dat bepaalde patronen zich
-              blijven herhalen en die verlangen naar meer rust, helderheid en
-              mildheid naar zichzelf.
+              blijven herhalen en die meer rust, helderheid en zachtheid naar
+              zichzelf zoeken.
             </p>
           </div>
 
@@ -149,10 +149,10 @@ export default function OmarmJezelfContent() {
             </h2>
 
             <p className="mt-5 leading-8 text-gray-600">
-              Omarm Jezelf is geen zware theoriecursus. Het is een zachte en
-              heldere verdieping waarin je stap voor stap leert kijken naar wie
-              jij bent, wat jou beweegt en wat je nodig hebt om meer in balans
-              te zijn.
+              Omarm Jezelf is geen zware theoriecursus. Het is een rustige en
+              heldere verdieping waarin ik je stap voor stap meeneem in wie jij
+              bent, wat jou beweegt en wat je nodig hebt om meer in balans te
+              zijn.
             </p>
 
             <p className="mt-5 leading-8 text-gray-600">
@@ -173,18 +173,18 @@ export default function OmarmJezelfContent() {
                 Een zachte ingang naar meer zelfinzicht
               </h2>
 
-              <p className="mt-5 leading-8 text-gray-600">
-                Nine Star Ki helpt je om jezelf beter te begrijpen via energie,
-                karakter en levenspatronen. Niet om jezelf in een hokje te
-                stoppen, maar om te herkennen wat jou drijft, wat je nodig hebt
-                en waar je soms uit balans raakt.
-              </p>
+            <p className="mt-5 leading-8 text-gray-600">
+              Nine Star Ki helpt je om jezelf beter te begrijpen via energie,
+              karakter en levenspatronen. Niet om jezelf in een hokje te
+              stoppen, maar om te herkennen wat jou drijft, wat je nodig hebt
+              en waar je uit balans kunt raken.
+            </p>
 
-              <p className="mt-5 leading-8 text-gray-600">
-                In Omarm Jezelf gebruiken we Nine Star Ki als spiegel. Zodat je
-                jezelf niet harder hoeft aan te pakken, maar juist beter leert
-                verstaan.
-              </p>
+            <p className="mt-5 leading-8 text-gray-600">
+              In Omarm Jezelf gebruiken we Nine Star Ki als spiegel. Zodat je
+              jezelf niet harder hoeft aan te pakken, maar jezelf beter leert
+              verstaan.
+            </p>
             </div>
 
             <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
@@ -244,7 +244,8 @@ export default function OmarmJezelfContent() {
 
             <p className="mt-5 leading-8 text-gray-600">
               Laat hieronder je naam en e-mailadres achter. Dan houd ik je op
-              de hoogte van de start, inhoud en mogelijkheden van Omarm Jezelf.
+              de hoogte van de start, de inhoud en de mogelijkheden van Omarm
+              Jezelf.
             </p>
           </div>
 

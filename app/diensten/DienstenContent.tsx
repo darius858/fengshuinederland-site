@@ -27,7 +27,7 @@ export default function DienstenContent() {
 
           <div className="mt-10 max-w-3xl border-l-4 border-[#c57b57] pl-6 text-gray-600">
             <h2 className="text-xl font-semibold text-gray-800">
-              Geen standaardoplossingen, maar advies dat past bij jouw ruimte
+              Ik kijk samen met jou naar wat jouw ruimte nodig heeft
             </h2>
 
             <p className="mt-4 leading-7">
@@ -36,13 +36,13 @@ export default function DienstenContent() {
             </p>
 
             <p className="mt-4 leading-7">
-              Daarom kijk ik naar jouw ruimte, jouw manier van werken en wat er
-              echt nodig is.
+              Daarom kijk ik naar jouw ruimte, jouw manier van werken en naar
+              wat er in de praktijk echt nodig is.
             </p>
 
             <p className="mt-4 leading-7">
-              Vaak zit de grootste winst in kleine aanpassingen die direct
-              verschil maken.
+              Vaak zit de grootste winst juist in kleine aanpassingen die
+              direct verschil maken.
             </p>
 
             <div className="mt-6">
@@ -100,8 +100,8 @@ export default function DienstenContent() {
 
             <p className="mt-4 leading-7 text-gray-600">
               Mijn aanpak is rustig en overzichtelijk. Je krijgt geen vage
-              theorie, maar duidelijke stappen en advies dat past bij jouw
-              ruimte, manier van werken en vraag.
+              theorie, maar helder advies dat past bij jouw ruimte, jouw vraag
+              en de manier waarop jij werkt.
             </p>
           </div>
 
@@ -119,8 +119,8 @@ export default function DienstenContent() {
               <span className="text-sm font-medium text-[#c57b57]">Stap 2</span>
               <h3 className="mt-3 text-xl font-semibold">Analyse</h3>
               <p className="mt-4 leading-7 text-gray-600">
-                Ik kijk naar de indeling en energie van de ruimte en waar rust,
-                flow en balans versterkt kunnen worden.
+                Ik kijk naar de indeling en energie van de ruimte en naar wat
+                er nodig is om meer rust, focus en balans te brengen.
               </p>
             </div>
 
@@ -128,7 +128,7 @@ export default function DienstenContent() {
               <span className="text-sm font-medium text-[#c57b57]">Stap 3</span>
               <h3 className="mt-3 text-xl font-semibold">Advies</h3>
               <p className="mt-4 leading-7 text-gray-600">
-                Je ontvangt duidelijke adviezen die logisch voelen en direct
+                Je ontvangt heldere adviezen die logisch voelen en direct
                 toepasbaar zijn in je eigen werk- of leefruimte.
               </p>
             </div>
@@ -229,7 +229,8 @@ export default function DienstenContent() {
           </h2>
 
           <p className="mt-4 text-gray-600">
-            Plan vrijblijvend een intake en ontdek wat er mogelijk is.
+            Plan vrijblijvend een intake, dan kijken we samen naar wat jouw
+            werkplek nodig heeft.
           </p>
 
           <div className="mt-6">
