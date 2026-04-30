@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -70,28 +71,41 @@ export default function FengShuiWerkplekPage() {
   return (
     <main className="bg-[#f8f6f1] px-6 py-20 text-gray-800 md:py-24">
       <div className="mx-auto max-w-6xl">
-        <section className="max-w-4xl">
-          <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
-            Feng Shui werkplek
-          </p>
+        <section className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+          <div className="max-w-4xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+              Feng Shui werkplek
+            </p>
 
-          <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
-            Meer rust, focus en balans op je werkplek
-          </h1>
+            <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
+              Meer rust, focus en balans op je werkplek
+            </h1>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Je werkplek heeft direct invloed op hoe je je voelt en hoe je
-            functioneert. Wanneer een ruimte onrustig, vol of onlogisch is
-            ingericht, merk je dat vaak in je concentratie, energie en
-            productiviteit.
-          </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Je werkplek heeft direct invloed op hoe je je voelt en hoe je
+              functioneert. Wanneer een ruimte onrustig, vol of onlogisch is
+              ingericht, merk je dat vaak in je concentratie, energie en
+              productiviteit.
+            </p>
 
-          <p className="mt-4 leading-8 text-gray-600">
-            Feng Shui helpt om je werkplek zo in te richten dat deze je beter
-            ondersteunt. Niet met ingewikkelde regels, maar met praktische
-            keuzes die zorgen voor meer overzicht, prettiger werken en minder
-            onnodige prikkels.
-          </p>
+            <p className="mt-4 leading-8 text-gray-600">
+              Feng Shui helpt om je werkplek zo in te richten dat deze je beter
+              ondersteunt. Niet met ingewikkelde regels, maar met praktische
+              keuzes die zorgen voor meer overzicht, prettiger werken en minder
+              onnodige prikkels.
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
+            <Image
+              src="/feng-shui-werkplek-bureau.png"
+              alt="Overvol bureau als voorbeeld van een onrustige werkplek"
+              width={1536}
+              height={1024}
+              className="h-[340px] w-full object-cover"
+              priority
+            />
+          </div>
         </section>
 
         <section className="mt-14 grid gap-6 md:grid-cols-3">
