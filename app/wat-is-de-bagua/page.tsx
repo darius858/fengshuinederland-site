@@ -6,7 +6,7 @@ import { createMetadata } from "../seo";
 
 const baguaAreas = [
   {
-    name: "Welvaart",
+    name: "Weelde",
     description:
       "Dit vak wordt vaak gekoppeld aan groei, overvloed en de manier waarop energie zich mag uitbreiden.",
   },
