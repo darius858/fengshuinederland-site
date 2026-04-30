@@ -135,12 +135,12 @@ export default function WatIsFengShuiPage() {
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
           <h2 className="text-3xl font-semibold">
-            Wat hebben de bagua en Nine Star Ki hiermee te maken?
+            Wat hebben de BaGua en Nine Star Ki hiermee te maken?
           </h2>
 
           <p className="mt-6 leading-8 text-gray-600">
             Binnen Feng Shui zijn er verschillende manieren om een ruimte
-            beter te begrijpen. De bagua helpt bijvoorbeeld om een ruimte op te
+            beter te begrijpen. De BaGua helpt bijvoorbeeld om een ruimte op te
             delen in levensgebieden en energiekwaliteiten. Nine Star Ki geeft
             juist meer inzicht in de energie van mensen zelf.
           </p>
@@ -156,7 +156,7 @@ export default function WatIsFengShuiPage() {
               href="/wat-is-de-bagua"
               className="rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
             >
-              Lees wat de bagua is
+              Lees wat de BaGua is
             </Link>
 
             <Link

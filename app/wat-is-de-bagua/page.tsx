@@ -54,38 +54,38 @@ const baguaAreas = [
 
 const faqs = [
   {
-    question: "Is de bagua een vaste plattegrond?",
+    question: "Is de BaGua een vaste plattegrond?",
     answer:
-      "Nee, de bagua is vooral een manier om naar een ruimte te kijken. Het is een raster dat helpt om verschillende levensgebieden en energiekwaliteiten zichtbaar te maken.",
+      "Nee, de BaGua is vooral een manier om naar een ruimte te kijken. Het is een raster dat helpt om verschillende levensgebieden en energiekwaliteiten zichtbaar te maken.",
   },
   {
-    question: "Moet ik de bagua letterlijk over mijn huis leggen?",
+    question: "Moet ik de BaGua letterlijk over mijn huis leggen?",
     answer:
-      "Dat hangt af van de methode waarmee je werkt. Binnen conceptuele Feng Shui wordt de bagua vaak gebruikt als een helder hulpmiddel om richting en samenhang in een ruimte te begrijpen.",
+      "Dat hangt af van de methode waarmee je werkt. Binnen conceptuele Feng Shui wordt de BaGua vaak gebruikt als een helder hulpmiddel om richting en samenhang in een ruimte te begrijpen.",
   },
   {
     question: "Wat als mijn ruimte niet perfect past in negen vakken?",
     answer:
-      "Dat is heel normaal. Het gaat niet om perfectie, maar om inzicht. De bagua helpt vooral om te zien waar aandacht, balans of versterking nodig kan zijn.",
+      "Dat is heel normaal. Het gaat niet om perfectie, maar om inzicht. De BaGua helpt vooral om te zien waar aandacht, balans of versterking nodig kan zijn.",
   },
   {
-    question: "Waarom is de bagua waardevol?",
+    question: "Waarom is de BaGua waardevol?",
     answer:
       "Omdat het een eenvoudige manier geeft om verband te zien tussen ruimte, energie en levensthema's. Daardoor wordt Feng Shui concreter en beter toepasbaar.",
   },
 ];
 
 export const metadata: Metadata = createMetadata({
-  title: "Wat is de bagua? | Feng Shui Nederland",
+  title: "Wat is de BaGua? | Feng Shui Nederland",
   description:
-    "Lees wat de bagua is binnen Feng Shui, hoe de 9 vakken werken en waarom dit raster helpt om meer balans en inzicht in een ruimte te brengen.",
+    "Lees wat de BaGua is binnen Feng Shui, hoe de 9 vakken werken en waarom dit raster helpt om meer balans en inzicht in een ruimte te brengen.",
   path: "/wat-is-de-bagua",
   keywords: [
-    "wat is de bagua",
-    "bagua uitleg",
-    "Feng Shui bagua",
-    "9 vakken bagua",
-    "conceptuele Feng Shui bagua",
+    "wat is de BaGua",
+    "BaGua uitleg",
+    "Feng Shui BaGua",
+    "9 vakken BaGua",
+    "conceptuele Feng Shui BaGua",
   ],
 });
 
@@ -100,18 +100,18 @@ export default function BaguaPage() {
             </p>
 
             <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
-              Wat is de bagua?
+              Wat is de BaGua?
             </h1>
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              De bagua is een belangrijk hulpmiddel binnen Feng Shui. Je kunt
+              De BaGua is een belangrijk hulpmiddel binnen Feng Shui. Je kunt
               het zien als een raster met 9 vakken waarmee je naar een ruimte
               kijkt: niet alleen praktisch, maar ook in relatie tot thema&apos;s
               zoals rust, richting, relaties, groei en balans.
             </p>
 
             <p className="mt-4 leading-8 text-gray-600">
-              Juist daardoor helpt de bagua om Feng Shui concreter te maken. Je
+              Juist daardoor helpt de BaGua om Feng Shui concreter te maken. Je
               ziet sneller welke delen van een ruimte aandacht vragen en waar
               energie sterker of juist zachter mag worden.
             </p>
@@ -143,7 +143,7 @@ export default function BaguaPage() {
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#eee7dd]">
             <Image
               src="/omarm-jezelf-bagua.png"
-              alt="Conceptuele Feng Shui bagua op papier"
+              alt="Conceptuele Feng Shui BaGua op papier"
               width={1400}
               height={1050}
               className="h-[360px] w-full object-cover"
@@ -153,10 +153,10 @@ export default function BaguaPage() {
         </section>
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
-          <h2 className="text-3xl font-semibold">Hoe werkt de bagua?</h2>
+          <h2 className="text-3xl font-semibold">Hoe werkt de BaGua?</h2>
 
           <p className="mt-6 leading-8 text-gray-600">
-            De bagua verdeelt een ruimte in 9 vakken. Elk vak staat symbool
+            De BaGua verdeelt een ruimte in 9 vakken. Elk vak staat symbool
             voor een bepaald levensgebied of energiekwaliteit. Door dat raster
             over een ruimte heen te denken, ontstaat er een andere manier van
             kijken: je ziet niet alleen meubels en muren, maar ook samenhang,
@@ -173,7 +173,7 @@ export default function BaguaPage() {
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
           <h2 className="text-3xl font-semibold">
-            De 9 vakken van de bagua
+            De 9 vakken van de BaGua
           </h2>
 
           <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -195,12 +195,12 @@ export default function BaguaPage() {
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
           <h2 className="text-3xl font-semibold">
-            Waarom de bagua zo&apos;n waardevol hulpmiddel is
+            Waarom de BaGua zo&apos;n waardevol hulpmiddel is
           </h2>
 
           <p className="mt-6 leading-8 text-gray-600">
             Veel mensen voelen wel dat een ruimte invloed heeft, maar kunnen
-            nog niet goed aanwijzen waarom. De bagua helpt om dat concreter te
+            nog niet goed aanwijzen waarom. De BaGua helpt om dat concreter te
             maken. Je krijgt taal voor wat je ervaart en een structuur om
             gericht naar een ruimte te kijken.
           </p>
@@ -236,7 +236,7 @@ export default function BaguaPage() {
           </p>
 
           <h2 className="mt-4 text-3xl font-semibold md:text-4xl">
-            Wil je weten wat de bagua in jouw ruimte laat zien?
+            Wil je weten wat de BaGua in jouw ruimte laat zien?
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl leading-8 text-white/80">

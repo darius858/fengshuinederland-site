@@ -137,7 +137,7 @@ export default function Home() {
                   href="/wat-is-de-bagua"
                   className="inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
                 >
-                  Lees wat de bagua is
+                  Lees wat de BaGua is
                 </a>
               </div>
             </div>

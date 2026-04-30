@@ -50,7 +50,7 @@ export default function DienstenContent() {
                 href="/wat-is-de-bagua"
                 className="inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
               >
-                Lees meer over de bagua
+                Lees meer over de BaGua
               </Link>
             </div>
           </div>
