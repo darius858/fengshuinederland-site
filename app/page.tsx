@@ -396,6 +396,100 @@ export default function Home() {
           >
             <div className="mx-auto max-w-2xl text-center">
               <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+                Kennisbank
+              </p>
+
+              <h2 className="mt-4 text-3xl font-semibold md:text-4xl">
+                Meer lezen over Feng Shui, de BaGua en Nine Star Ki
+              </h2>
+
+              <p className="mt-5 leading-8 text-gray-600">
+                Op zoek naar meer achtergrond of praktische uitleg? In de
+                kennisbank verzamel ik artikelen die je helpen om ruimte,
+                energie en werkplekken beter te begrijpen.
+              </p>
+            </div>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-3">
+              <div className="rounded-[1.75rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">
+                <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
+                  Feng Shui
+                </p>
+                <h3 className="mt-4 text-2xl font-semibold">
+                  Wat is Feng Shui?
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">
+                  Een rustige en heldere basisuitleg over hoe Feng Shui werkt
+                  en waarom een ruimte zo veel invloed heeft.
+                </p>
+                <a
+                  href="/wat-is-feng-shui"
+                  className="mt-6 inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                >
+                  Lees artikel
+                </a>
+              </div>
+
+              <div className="rounded-[1.75rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">
+                <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
+                  BaGua
+                </p>
+                <h3 className="mt-4 text-2xl font-semibold">
+                  Wat is de BaGua?
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">
+                  Lees hoe de 9 vakken van de BaGua helpen om anders naar een
+                  ruimte te kijken en meer samenhang te zien.
+                </p>
+                <a
+                  href="/wat-is-de-bagua"
+                  className="mt-6 inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                >
+                  Lees artikel
+                </a>
+              </div>
+
+              <div className="rounded-[1.75rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd]">
+                <p className="text-sm uppercase tracking-[0.18em] text-[#c57b57]">
+                  Werkplek
+                </p>
+                <h3 className="mt-4 text-2xl font-semibold">
+                  Feng Shui voor je werkplek
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">
+                  Praktische inzichten om meer rust, focus en overzicht te
+                  brengen in je werkplek of thuiskantoor.
+                </p>
+                <a
+                  href="/feng-shui-werkplek"
+                  className="mt-6 inline-flex rounded-full border border-[#c57b57] px-6 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+                >
+                  Lees artikel
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-10 text-center">
+              <a
+                href="/kennisbank"
+                className="inline-flex rounded-full bg-[#c57b57] px-7 py-3 text-sm font-medium text-white transition hover:bg-[#b36c49]"
+              >
+                Naar de kennisbank
+              </a>
+            </div>
+          </motion.div>
+        </section>
+
+        <section className="px-6 py-20 md:py-24">
+          <motion.div
+            className="mx-auto max-w-6xl"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
                 Werkwijze
               </p>
 

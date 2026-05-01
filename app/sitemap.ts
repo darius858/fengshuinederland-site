@@ -47,6 +47,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://fengshuinederland.nl/kennisbank",
+      lastModified: new Date(),
+    },
+    {
       url: "https://fengshuinederland.nl/contact",
       lastModified: new Date(),
     },

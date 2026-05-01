@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="border-t bg-white">
@@ -20,6 +22,9 @@ export default function Footer() {
         </div>
 
         <div className="mt-4 flex justify-center gap-4 text-sm text-gray-500">
+          <Link href="/kennisbank" className="underline hover:text-gray-800">
+            Kennisbank
+          </Link>
           <a href="/privacy" className="underline hover:text-gray-800">
             Privacyverklaring
           </a>
