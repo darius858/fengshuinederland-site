@@ -29,12 +29,12 @@ export default function Header() {
           onClick={closeMobileMenu}
         >
           <Image
-            src="/logo.png"
+            src="/logo-3d.png"
             alt="Logo Feng Shui Nederland"
-            width={44}
-            height={44}
+            width={56}
+            height={56}
             priority
-            className="rounded-full"
+            className="h-12 w-12 object-contain md:h-14 md:w-14"
           />
           <div className="leading-tight">
             <span className="block text-base font-semibold text-gray-800 md:text-lg">
