@@ -34,7 +34,8 @@ export default function Footer() {
         </div>
 
         <p className="mt-6 text-xs text-gray-400">
-          Copyright {new Date().getFullYear()} Feng Shui Nederland
+          Copyright {new Date().getFullYear()} Feng Shui Nederland. Alle
+          teksten en beelden zijn eigendom van Feng Shui Nederland.
         </p>
       </div>
     </footer>

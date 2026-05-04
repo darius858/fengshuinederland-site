@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import CopyProtection from "../components/CopyProtection";
 import type { Metadata } from "next";
 
 import { defaultOgImage, siteName, siteUrl } from "./seo";
@@ -58,6 +59,7 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <body className="flex min-h-screen flex-col bg-[#f8f6f1] text-gray-800">
+        <CopyProtection />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
