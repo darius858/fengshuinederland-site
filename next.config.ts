@@ -45,6 +45,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/blog/nine-star-ki-calculator",
+        destination: "/nine-star-ki-calculator",
+        permanent: true,
+      },
+      {
         source: "/:path*",
         has: [
           {

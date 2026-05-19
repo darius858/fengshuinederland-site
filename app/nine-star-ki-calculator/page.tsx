@@ -60,11 +60,50 @@ const numberMeanings = [
   },
 ];
 
+const seriesParts = [
+  {
+    title: "1. Je basisgetal",
+    description:
+      "Dit getal laat zien welke energie van nature bij je past. Het geeft een eerste indruk van je grondtoon, kwaliteiten en manier van reageren.",
+  },
+  {
+    title: "2. Je emotiegetal",
+    description:
+      "Dit getal geeft meer inzicht in je binnenwereld. Het laat zien wat je raakt, hoe je emoties bewegen en wat jij nodig hebt om in balans te blijven.",
+  },
+  {
+    title: "3. Je handelingsgetal",
+    description:
+      "Dit getal laat zien hoe je energie naar buiten komt. Het zegt iets over hoe je handelt, communiceert en zichtbaar wordt in contact met anderen.",
+  },
+];
+
+const relatedPages = [
+  {
+    title: "Wat is Nine Star Ki?",
+    description:
+      "Lees rustig verder over de achtergrond van Nine Star Ki en hoe deze methode helpt bij zelfinzicht.",
+    href: "/nine-star-ki",
+  },
+  {
+    title: "Betekenis van de cijfers",
+    description:
+      "Bekijk wat de cijfers 1 tot en met 9 in grote lijnen vertellen over energie, kwaliteiten en patronen.",
+    href: "/nine-star-ki-cijfers",
+  },
+  {
+    title: "Omarm Jezelf",
+    description:
+      "Wil je je reeks later dieper leren begrijpen? Meld je interesse voor het online programma.",
+    href: "/omarm-jezelf",
+  },
+];
+
 const faqs = [
   {
     question: "Wat is een Nine Star Ki reeks?",
     answer:
-      "Je reeks laat zien welke energie een belangrijke rol speelt in jouw karakter, kwaliteiten en levenspatronen.",
+      "Je reeks bestaat uit drie getallen die samen inzicht geven in je basisenergie, je emotionele beweging en de manier waarop je handelt.",
   },
   {
     question: "Is de Nine Star Ki Calculator gratis?",
@@ -77,6 +116,11 @@ const faqs = [
       "Binnen Nine Star Ki wordt gekeken naar een eigen jaarindeling. Daardoor kan een geboortedatum aan het begin van het jaar invloed hebben op de uitkomst.",
   },
   {
+    question: "Wat betekenen de drie getallen in mijn reeks?",
+    answer:
+      "Het eerste getal wordt vaak gezien als je basisgetal, het tweede als je emotiegetal en het derde als je handelingsgetal. Samen geven ze een completer beeld dan één los getal.",
+  },
+  {
     question: "Kan Nine Star Ki helpen bij zelfinzicht?",
     answer:
       "Ja, veel mensen gebruiken Nine Star Ki om zichzelf beter te begrijpen en meer inzicht te krijgen in hun kwaliteiten, gevoeligheden en relatiepatronen.",
@@ -84,14 +128,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = createMetadata({
-  title: "Nine Star Ki Calculator | Bereken je reeks",
+  title: "Nine Star Ki Calculator | Bereken gratis je reeks online",
   description:
-    "Bereken eenvoudig je Nine Star Ki reeks en ontdek wat jouw getal zegt over je energie, kwaliteiten en levenspatronen.",
+    "Bereken gratis je Nine Star Ki reeks online en ontdek wat je basisgetal, emotiegetal en handelingsgetal over jouw energie laten zien.",
   path: "/nine-star-ki-calculator",
   keywords: [
     "Nine Star Ki calculator",
+    "Nine Star Ki calculator online",
     "bereken je Nine Star Ki",
+    "Nine Star Ki berekenen online",
     "Nine Star Ki reeks",
+    "basisgetal Nine Star Ki",
+    "emotiegetal Nine Star Ki",
+    "handelingsgetal Nine Star Ki",
     "Nine Star Ki getal betekenis",
   ],
 });
@@ -106,18 +155,20 @@ export default function NineStarKiCalculatorPage() {
           </p>
 
           <h1 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
-            Bereken je Nine Star Ki reeks
+            Bereken gratis je Nine Star Ki reeks online
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Bereken hier je Nine Star Ki reeks en ontdek wat jouw energie je
-            laat zien over je karakter, kwaliteiten en levenspatronen.
+            Gebruik de Nine Star Ki Calculator om je reeks te berekenen op
+            basis van je geboortedatum. Je ontdekt je basisgetal, emotiegetal
+            en handelingsgetal.
           </p>
 
           <p className="mt-4 leading-8 text-gray-600">
             Nine Star Ki is een eeuwenoude Oosterse methode die helpt om jezelf
             en anderen beter te begrijpen. Met deze calculator krijg je op een
-            toegankelijke manier een eerste indruk van jouw energie.
+            toegankelijke manier een eerste indruk van jouw energie, zonder dat
+            je jezelf in een hokje hoeft te plaatsen.
           </p>
         </section>
 
@@ -127,7 +178,8 @@ export default function NineStarKiCalculatorPage() {
 
             <p className="mt-5 leading-8 text-gray-600">
               Vul je geboortedatum in en ontdek jouw Nine Star Ki reeks. Je
-              kunt direct de webversie openen of de Android app downloaden.
+              kunt direct de webversie openen of de Android app downloaden. De
+              webversie werkt ook goed als je op iPhone, iPad of desktop kijkt.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -189,6 +241,45 @@ export default function NineStarKiCalculatorPage() {
         </section>
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
+          <p className="text-sm uppercase tracking-[0.2em] text-[#c57b57]">
+            Na je berekening
+          </p>
+
+          <h2 className="mt-4 text-3xl font-semibold">
+            Waarom krijg je drie getallen?
+          </h2>
+
+          <p className="mt-6 leading-8 text-gray-600">
+            Een Nine Star Ki reeks bestaat niet uit één los cijfer. Juist de
+            combinatie van drie getallen maakt de uitkomst interessant. Samen
+            laten ze iets zien over je basis, je binnenwereld en hoe je naar
+            buiten toe beweegt.
+          </p>
+
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
+            {seriesParts.map((part) => (
+              <div
+                key={part.title}
+                className="rounded-2xl bg-[#fcfaf7] p-6 ring-1 ring-[#efe7dd]"
+              >
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {part.title}
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">
+                  {part.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-8 leading-8 text-gray-600">
+            Zie je je reeks na het berekenen? Lees dan niet alleen het eerste
+            getal, maar kijk vooral naar de combinatie. Daarin zit vaak de
+            meeste herkenning.
+          </p>
+        </section>
+
+        <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
           <h2 className="text-3xl font-semibold">Wat is Nine Star Ki?</h2>
 
           <p className="mt-6 leading-8 text-gray-600">
@@ -202,6 +293,15 @@ export default function NineStarKiCalculatorPage() {
             Veel mensen ervaren Nine Star Ki als een spiegel. Niet om jezelf in
             een hokje te stoppen, maar juist om jezelf beter te begrijpen.
           </p>
+
+          <div className="mt-8">
+            <Link
+              href="/nine-star-ki"
+              className="inline-flex rounded-full border border-[#c57b57] px-7 py-3 text-sm font-medium text-[#c57b57] transition hover:bg-[#c57b57] hover:text-white"
+            >
+              Lees meer over Nine Star Ki
+            </Link>
+          </div>
         </section>
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
@@ -279,6 +379,38 @@ export default function NineStarKiCalculatorPage() {
             meer bewustzijn keuzes te maken in je dagelijks leven, relaties en
             werk.
           </p>
+        </section>
+
+        <section className="mt-14 rounded-[2rem] bg-[#fcfaf7] p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
+          <h2 className="text-3xl font-semibold">
+            Bouw verder op je uitkomst
+          </h2>
+
+          <p className="mt-6 max-w-3xl leading-8 text-gray-600">
+            De calculator is een mooi beginpunt. Vanuit je uitkomst kun je
+            rustig verder lezen, zodat de cijfers meer betekenis krijgen en je
+            ze beter kunt plaatsen in je dagelijks leven.
+          </p>
+
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
+            {relatedPages.map((page) => (
+              <Link
+                key={page.href}
+                href={page.href}
+                className="rounded-2xl bg-white p-6 ring-1 ring-[#efe7dd] transition hover:-translate-y-1 hover:shadow-md"
+              >
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {page.title}
+                </h3>
+                <p className="mt-4 leading-7 text-gray-600">
+                  {page.description}
+                </p>
+                <span className="mt-5 inline-flex text-sm font-medium text-[#c57b57]">
+                  Lees verder
+                </span>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section className="mt-14 rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-[#eee7dd] md:p-10">
